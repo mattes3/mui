@@ -341,11 +341,11 @@ template {
 }
 
 html {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-  font-family: Arial, Verdana, Tahoma;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.429;
@@ -354,7 +354,7 @@ body {
 }
 
 a {
-  color: #2196F3;
+  color: #4CAF50;
   text-decoration: none;
 }
 
@@ -392,8 +392,8 @@ strong {
 
 abbr[title] {
   cursor: help;
-  -webkit-text-decoration-color: #2196F3;
-  text-decoration-color: #2196F3;
+  -webkit-text-decoration-color: #4CAF50;
+  text-decoration-color: #4CAF50;
 }
 
 h1, h2, h3 {
@@ -456,7 +456,7 @@ h4, h5, h6 {
 }
 
 .mui-appbar {
-  background-color: #2196F3;
+  background-color: #4CAF50;
   color: #FFF;
 }
 
@@ -638,31 +638,31 @@ h4, h5, h6 {
 
 .mui-btn--primary {
   color: #FFF;
-  background-color: #2196F3;
+  background-color: #4CAF50;
 }
 
 .mui-btn--primary:hover, .mui-btn--primary:focus, .mui-btn--primary:active {
   color: #FFF;
-  background-color: #39a1f4;
+  background-color: #5cb860;
 }
 
 .mui-btn--primary[disabled]:hover, .mui-btn--primary[disabled]:focus, .mui-btn--primary[disabled]:active {
   color: #FFF;
-  background-color: #2196F3;
+  background-color: #4CAF50;
 }
 
 .mui-btn--primary.mui-btn--flat {
-  color: #2196F3;
+  color: #4CAF50;
   background-color: transparent;
 }
 
 .mui-btn--primary.mui-btn--flat:hover, .mui-btn--primary.mui-btn--flat:focus, .mui-btn--primary.mui-btn--flat:active {
-  color: #2196F3;
+  color: #4CAF50;
   background-color: #f2f2f2;
 }
 
 .mui-btn--primary.mui-btn--flat[disabled]:hover, .mui-btn--primary.mui-btn--flat[disabled]:focus, .mui-btn--primary.mui-btn--flat[disabled]:active {
-  color: #2196F3;
+  color: #4CAF50;
   background-color: transparent;
 }
 
@@ -728,31 +728,31 @@ h4, h5, h6 {
 
 .mui-btn--accent {
   color: #FFF;
-  background-color: #FF4081;
+  background-color: #FFAB40;
 }
 
 .mui-btn--accent:hover, .mui-btn--accent:focus, .mui-btn--accent:active {
   color: #FFF;
-  background-color: #ff5a92;
+  background-color: #ffb65a;
 }
 
 .mui-btn--accent[disabled]:hover, .mui-btn--accent[disabled]:focus, .mui-btn--accent[disabled]:active {
   color: #FFF;
-  background-color: #FF4081;
+  background-color: #FFAB40;
 }
 
 .mui-btn--accent.mui-btn--flat {
-  color: #FF4081;
+  color: #FFAB40;
   background-color: transparent;
 }
 
 .mui-btn--accent.mui-btn--flat:hover, .mui-btn--accent.mui-btn--flat:focus, .mui-btn--accent.mui-btn--flat:active {
-  color: #FF4081;
+  color: #FFAB40;
   background-color: #f2f2f2;
 }
 
 .mui-btn--accent.mui-btn--flat[disabled]:hover, .mui-btn--accent.mui-btn--flat[disabled]:focus, .mui-btn--accent.mui-btn--flat[disabled]:active {
-  color: #FF4081;
+  color: #FFAB40;
   background-color: transparent;
 }
 
@@ -1583,7 +1583,7 @@ h4, h5, h6 {
 .mui-select:focus > select {
   height: calc(32px + 1px);
   margin-bottom: -1px;
-  border-color: #2196F3;
+  border-color: #4CAF50;
   border-width: 2px;
 }
 
@@ -1620,7 +1620,7 @@ h4, h5, h6 {
   outline: 0;
   height: calc(32px + 1px);
   margin-bottom: -1px;
-  border-color: #2196F3;
+  border-color: #4CAF50;
   border-width: 2px;
 }
 
@@ -1661,7 +1661,7 @@ h4, h5, h6 {
 
 .mui-select:focus > label,
 .mui-select > select:focus ~ label {
-  color: #2196F3;
+  color: #4CAF50;
 }
 
 .mui-select__menu {
@@ -1797,11 +1797,11 @@ h4, h5, h6 {
 }
 
 .mui-tabs__bar > li.mui--is-active {
-  border-bottom: 2px solid #2196F3;
+  border-bottom: 2px solid #4CAF50;
 }
 
 .mui-tabs__bar > li.mui--is-active > a {
-  color: #2196F3;
+  color: #4CAF50;
 }
 
 .mui-tabs__bar.mui-tabs__bar--justified {
@@ -1858,7 +1858,7 @@ h4, h5, h6 {
 
 .mui-textfield > input:focus ~ label,
 .mui-textfield > textarea:focus ~ label {
-  color: #2196F3;
+  color: #4CAF50;
 }
 
 .mui-textfield--float-label > label {
@@ -1930,7 +1930,7 @@ h4, h5, h6 {
 
 .mui-textfield > input:focus,
 .mui-textfield > textarea:focus {
-  border-color: #2196F3;
+  border-color: #4CAF50;
   border-width: 2px;
 }
 
@@ -2136,15 +2136,15 @@ h4, h5, h6 {
 }
 
 .mui--text-accent {
-  color: rgba(255, 64, 129, 0.87);
+  color: rgba(255, 171, 64, 0.87);
 }
 
 .mui--text-accent-secondary {
-  color: rgba(255, 64, 129, 0.54);
+  color: rgba(255, 171, 64, 0.54);
 }
 
 .mui--text-accent-hint {
-  color: rgba(255, 64, 129, 0.38);
+  color: rgba(255, 171, 64, 0.38);
 }
 
 .mui--text-black {
@@ -2164,27 +2164,27 @@ h4, h5, h6 {
 }
 
 .mui--bg-primary {
-  background-color: #2196F3;
+  background-color: #4CAF50;
 }
 
 .mui--bg-primary-dark {
-  background-color: #1976D2;
+  background-color: #388E3C;
 }
 
 .mui--bg-primary-light {
-  background-color: #BBDEFB;
+  background-color: #C8E6C9;
 }
 
 .mui--bg-accent {
-  background-color: #FF4081;
+  background-color: #FFAB40;
 }
 
 .mui--bg-accent-dark {
-  background-color: #F50057;
+  background-color: #FF9100;
 }
 
 .mui--bg-accent-light {
-  background-color: #FF80AB;
+  background-color: #FFD180;
 }
 
 .mui--bg-danger {

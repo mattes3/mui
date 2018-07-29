@@ -3,7 +3,7 @@
 // ============================================================================
 
 $mui-include-globals: true !default;
-$mui-use-rem:         false !default;
+$mui-use-rem:         true !default;
 
 @function mui-rem($px) {
   $x: $px;
@@ -22,13 +22,13 @@ $mui-use-rem:         false !default;
 // COLORS
 // ============================================================================
 
-$mui-primary-color:            mui-color('blue', '500') !default;
-$mui-primary-color-dark:       mui-color('blue', '700') !default;
-$mui-primary-color-light:      mui-color('blue', '100') !default;
+$mui-primary-color:            mui-color('green', '500') !default;
+$mui-primary-color-dark:       mui-color('green', '700') !default;
+$mui-primary-color-light:      mui-color('green', '100') !default;
 
-$mui-accent-color:             mui-color('pink', 'A200') !default;
-$mui-accent-color-dark:        mui-color('pink', 'A400') !default;
-$mui-accent-color-light:       mui-color('pink', 'A100') !default;
+$mui-accent-color:             mui-color('orange', 'A200') !default;
+$mui-accent-color-dark:        mui-color('orange', 'A400') !default;
+$mui-accent-color-light:       mui-color('orange', 'A100') !default;
 
 $mui-danger-color:             mui-color('red', '500') !default;
 
@@ -41,7 +41,7 @@ $mui-danger-color:             mui-color('red', '500') !default;
 
 $mui-body-bg-color:              mui-color('white') !default;
 
-$mui-base-font-family:           Arial, Verdana, Tahoma !default;
+$mui-base-font-family:           "Roboto", "Helvetica Neue", Helvetica, Arial !default;
 $mui-base-font-color:            mui-color('black-alpha-87') !default;
 $mui-base-font-size:             mui-rem(14px) !default;
 $mui-base-font-weight:           400 !default;
